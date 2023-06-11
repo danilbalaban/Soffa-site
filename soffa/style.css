@@ -135,8 +135,30 @@ section h2 {
 #contact p {
     margin-bottom: 10px;
 }
+.preorder-button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.preorder-button .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ebc909;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: #ff8533;
+
+}
 
 /* Стили для картинок */
+.section-title {
+    text-align: center;
+}
 
 .image-container {
     display: flex;
